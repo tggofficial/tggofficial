@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(pinkbg.jpg);
+    background-size: 120%;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: #ffffff;
+    border: 2px solid white; */
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+}   
+.box{
+    border: 1px dotted white;
+    border-radius: 22px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#form input,textarea{
+    margin: 15px;
+    width: 88%;
+    border: 0.1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 12px;
+    background-color: transparent;
+}
+#form input{
+    border: 1px solid rgb(255, 255, 255);
+    height: 30px;
+    padding: 12px;
+}
+.btn-contact{    
+    width: 100%;
+    padding:7px 12px;
+    border: 1px solid white;
+    border-radius: 40px;
+    cursor: pointer;
+    background: linear-gradient(to right, #b659e9, #6bb6f0);
+    color: black;
+}
+
+
+.btn-contact:hover{
+    font-size: 1rem;
+    transition: 500ms;
+    color: rgb(41 25 49);
+}
+
+span{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+}

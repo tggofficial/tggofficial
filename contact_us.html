@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netlify form</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="utils.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <span class="font-bold headings">Contact Us</span>
+            <form id="form" name="contact" method="POST" data-netlify="true">
+                <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+                <input type="number" name="contact" id="contact" placeholder="Enter your contact"><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+                <textarea name="msg" id="" cols="30" rows="10" placeholder="Enter the message"></textarea>
+                <button type="submit" class="btn-contact">Send</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
